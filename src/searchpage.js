@@ -13,6 +13,9 @@ class Searchpage extends Component {
                             <input type="text" placeholder="Search by title or author"></input>
                         </div>
                     </div>
+                    <div className="search-books-result">
+                        <ol className="books-grid"></ol>
+                    </div>
                 </div>
             </div>
         );
